@@ -1,0 +1,12 @@
+{
+  "name": "nodejs_design_patton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "require.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
