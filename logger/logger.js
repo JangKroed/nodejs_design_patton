@@ -1,17 +1,11 @@
-// module.exports.info = (message) => {
-//     console.log(`info: ${message}`)
-// }
-//
-// module.exports.verbose = (message) => {
-//     console.log(`verbose: ${message}`)
-// }
-
 class Logger {
     constructor(name) {
+        this.count = 0
         this.name = name
     }
 
     log(message) {
+        this.count++
         console.log(`[${this.name}] ${message}`)
     }
 
@@ -24,4 +18,4 @@ class Logger {
     }
 }
 
-module.exports = Logger
+module.exports = new Logger('DEFAULT')
